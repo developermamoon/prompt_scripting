@@ -74,11 +74,21 @@
 .minibox{
     position: absolute;
     bottom: 0;
-    /* left: 15%; */
-    /* right: 25%; */
     background-color: rgba(0, 0, 0, 0.6);
     color: #949494;
     width: 100%;
+}
+
+.explore-all-btn{
+    margin: 120px 0px;
+}
+
+.explore-all-btn a{
+            color: inherit;
+            background-color: #9AC6B7;
+            padding: 15px 20px;
+            text-decoration: none;
+        
 }
 
 
