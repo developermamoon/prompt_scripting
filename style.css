@@ -43,6 +43,14 @@
     width: 350px;
 }
 
+.service-logos{
+    background-color: #14161C;
+}
+
+.service-logos img{
+    width: 130px;
+    height: 25px;
+}
 .login-btn{
     color: inherit;
     background-color: #9AC6B7;
