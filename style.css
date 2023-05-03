@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.popins{
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand{
@@ -82,13 +87,34 @@
 .explore-all-btn{
     margin: 120px 0px;
 }
+.browse-marketplace-btn{
+    margin: 60px 0px;
+}
 
-.explore-all-btn a{
+.prompt-scripting div{
+    background-color: rgba(154, 198, 183, 0.5);;
+    padding: 100px 0;
+}
+
+
+.explore-all-btn a, .browse-marketplace-btn a{
             color: inherit;
             background-color: #9AC6B7;
             padding: 15px 20px;
             text-decoration: none;
         
+}
+
+
+.footer-body{
+    background: url('images/footer_background.png');
+}
+
+.footer-menu a{
+    color: #333333;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 400;
 }
 
 
@@ -110,5 +136,9 @@
 
     .logo1{
         width: 185px;
+    }
+
+    .footer-menu a{
+        margin-right: 0px;
     }
  }
